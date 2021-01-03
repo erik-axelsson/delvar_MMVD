@@ -5,7 +5,7 @@ Source code for manuscript: "The genetic consequences of dog breed formation - a
 1. core_mapping_bwa_mem_GATK_3_7.pl <br/>
 Perl script executing bwa, picard and GATK mapping procedure for sequencing data.
 
-## Variant calling (SNIVs and INDELs)
+## Variant calling (SNVs and INDELs)
 1. VarCallScatter.pl <br/>
 Perl script executing raw GATK variant calling on chromosome seqments.
 2. Catvar.pl <br/>
