@@ -23,23 +23,7 @@ Bash script applying variant call recalibration scheme for INDELs.
 8. snpEff.sh <br/>
 Bash script executing snpEff program for variant effect prediction.
 
-## GenomeStrip CNV detection and annotation
-1. CNVDiscovery.per.chr.pl <br/>
-Perl script executing GenomeStrip CNV discovery pipeline
-2. vcf_breed_CNV_with_annotations.pl <br/>
-Perl script for annotating CNVs
-
-## GenomeStrip deletion detection
-1. SVPreprocess.per.chr.pl <br/>
-Perl script executing GenomeStrip deletions preprocess pipeline
-2. SVDiscovery.per.chr.pl <br/>
-Perl script executing GenomeStrip deletions discovery pipeline
-3. SVGenotyper.per.chr.pl <br/>
-Perl script executing GenomeStrip deletions genotyping pipeline
-4. vcf_breed_SV_FST_with_annotations.pl <br/>
-Perl script for annotating deletions
-
-## Liftover human genome (hg38) per base pair conservation scores (PhyloP) for canfam3 SNPs
+## Liftover human genome (hg38) per base pair conservation scores (PhyloP) for canfam3 SNVs
 1. wigFix_to_bed.pl <br/>
 Perl script converting hg38 phylop values (downloaded from UCSC) from WigFix to BED format.
 2. vcf_to_bed.pl <br/>
@@ -57,6 +41,20 @@ Perl script printing file with canfam3 SNPs and phylop values.
 
 ## FST calculations
 
-## VST calculations
-
 ## Relative amount of deleterious variation  
+
+## GenomeStrip CNV detection and annotation
+1. CNVDiscovery.per.chr.pl <br/>
+Perl script executing GenomeStrip CNV discovery pipeline
+2. vcf_breed_CNV_with_annotations.pl <br/>
+Perl script for annotating CNVs
+
+## GenomeStrip deletion detection
+1. SVPreprocess.per.chr.pl <br/>
+Perl script executing GenomeStrip deletions preprocess pipeline
+2. SVDiscovery.per.chr.pl <br/>
+Perl script executing GenomeStrip deletions discovery pipeline
+3. SVGenotyper.per.chr.pl <br/>
+Perl script executing GenomeStrip deletions genotyping pipeline
+4. vcf_breed_SV_FST_with_annotations.pl <br/>
+Perl script for annotating deletions
