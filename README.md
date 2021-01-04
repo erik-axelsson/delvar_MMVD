@@ -9,4 +9,10 @@ Perl script executing bwa, picard and GATK mapping procedure for sequencing data
 1. VarCallScatter.pl <br/>
 Perl script executing raw GATK variant calling on chromosome seqments.
 2. Catvar.pl <br/>
-Perl script concatinating scattered chromosome vcf-files to single chromosome vcf-files. 
+Perl script executing concatination of scattered chromosome vcf-files to single chromosome vcf-files. 
+3. Catvar_whole_genome.pl <br/>
+Perl script executing concatination of per chromosome vcf-files to single whole genome vcf-file.
+4. VarCalibrator_SNPs.sh <br/>
+Bash script executing variant call recalibration for SNVs.
+5. VarCalibrator_INDELs.sh <br/>
+Bash script executing variant call recalibration for INDELs.
