@@ -5,7 +5,7 @@ Source code for manuscript: "The genetic consequences of dog breed formation - a
 1. core_mapping_bwa_mem_GATK_3_7.pl <br/>
 Perl script executing bwa, picard and GATK mapping procedure for sequencing data.
 
-## Variant calling (SNVs and INDELs)
+## Variant calling (SNVs and INDELs) and initial annotation
 1. VarCallScatter.pl <br/>
 Perl script executing raw GATK variant calling on chromosome seqments.
 2. Catvar.pl <br/>
@@ -23,7 +23,7 @@ Bash script applying variant call recalibration scheme for INDELs.
 8. snpEff.sh <br/>
 Bash script executing snpEff program for variant effect prediction.
 
-## Liftover human genome (hg38) per base pair conservation scores (PhyloP) for canfam3 SNVs
+## Pipeline for Liftover of human genome (hg38) per base pair conservation scores (PhyloP) to canfam3 SNVs
 1. wigFix_to_bed.pl <br/>
 Perl script converting hg38 phylop values (downloaded from UCSC) from WigFix to BED format.
 2. vcf_to_bed.pl <br/>
@@ -39,7 +39,7 @@ Perl script executing Grep of phylop values for the dog SNPs.
 7. dog_SNPs_phylop.pl <br/> 
 Perl script printing file with canfam3 SNPs and phylop values.
 
-## FST calculations
+## SNV and INDEL additional annotations (calculating FST and writing conservation scores to variant file)
 
 ## Relative amount of deleterious variation  
 
