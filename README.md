@@ -16,6 +16,12 @@ Perl script executing concatination of per chromosome vcf-files to single whole 
 Bash script executing variant call recalibration for SNVs.
 5. VarCalibrator_INDELs.sh <br/>
 Bash script executing variant call recalibration for INDELs.
+6. ApplyReCalibrator_SNPs.sh <br/>
+Bash script applying variant call recalibration scheme for SNVs.
+7. ApplyReCalibrator_INDELs.sh <br/>
+Bash script applying variant call recalibration scheme for INDELs.
+8. snpEff.sh <br/>
+Bash script executing snpEff program for variant effect prediction.
 
 ## GenomeStrip CNV calling
 1. CNVDiscovery.per.chr.pl <br/>
