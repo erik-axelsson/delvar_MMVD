@@ -17,7 +17,17 @@ Bash script executing variant call recalibration for SNVs.
 5. VarCalibrator_INDELs.sh <br/>
 Bash script executing variant call recalibration for INDELs.
 
+## GenomeStrip CNV calling
+1. CNVDiscovery.per.chr.pl <br/>
+Perl script executing GenomeStrip CNV discovery pipeline
 
+## GenomeStrip deletions calling
+1. SVPreprocess.per.chr.pl <br/>
+Perl script executing GenomeStrip deletions preprocess pipeline
+2. SVDiscovery.per.chr.pl <br/>
+Perl script executing GenomeStrip deletions discovery pipeline
+3. SVGenotyper.per.chr.pl <br/>
+Perl script executing GenomeStrip deletions genotyping pipeline
 
 ## Liftover human genome (hg38) per base pair conservation scores (PhyloP) for canfam3 SNPs
 1. wigFix_to_bed.pl <br/>
@@ -34,3 +44,9 @@ Perl script sorting LiftOver results based on hg38 chromosomes and print files w
 Perl script executing Grep of phylop values for the dog SNPs.
 7. dog_SNPs_phylop.pl <br/> 
 Perl script printing file with canfam3 SNPs and phylop values.
+
+## FST calculations
+
+## VST calculations
+
+## Relative amount of deleterious variation  
