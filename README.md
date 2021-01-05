@@ -44,6 +44,8 @@ Perl script printing file with canfam3 SNPs and phylop values.
 ## SNV and INDEL additional annotations (calculating FST and writing conservation scores to variant file)
 1. vcf_breed_with_annotations_command_line_version.pl <br/>
 Perl script calculating and reporting pariwise FST for all variants and breed pairs. Script also reports additional variant annotations such as evolutionary conservation, gene ontology, wolf-, cat- and andean fox alleles.  
+2. vcf_breed_with_annotations_per_chr_batch_maker.pl <br/>
+Perl script submitting "vcf_breed_with_annotations_command_line_version.pl" to slurm queue.
 
 ## Relative amount of deleterious variation  
 
