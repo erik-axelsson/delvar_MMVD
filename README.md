@@ -22,6 +22,8 @@ Bash script applying variant call recalibration scheme for SNVs.
 Bash script applying variant call recalibration scheme for INDELs.
 8. snpEff.sh <br/>
 Bash script executing snpEff program for variant effect prediction.
+9. select_variants_batch_maker.pl <br/>
+Perl script executing split of whole genome vcf file to per chromosome vcf file.
 
 ## Pipeline for Liftover of human genome (hg38) per base pair conservation scores (PhyloP) to canfam3 SNVs
 1. wigFix_to_bed.pl <br/>
