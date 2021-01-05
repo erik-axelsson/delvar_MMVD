@@ -42,7 +42,8 @@ Perl script executing Grep of phylop values for the dog SNPs.
 Perl script printing file with canfam3 SNPs and phylop values.
 
 ## SNV and INDEL additional annotations (calculating FST and writing conservation scores to variant file)
-
+1. vcf_breed_with_annotations_command_line_version.pl <br/>
+Perl script calculating and reporting pariwise FST for all variants and breed pairs. Script also reports additinal variant annotations such as evolutionary conservation, gene ontology, wolf-, cat- and andean fox alleles.  
 ## Relative amount of deleterious variation  
 
 ## GenomeStrip CNV detection and annotation
