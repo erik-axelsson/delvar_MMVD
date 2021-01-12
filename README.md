@@ -48,6 +48,10 @@ Perl script calculating and reporting pariwise FST for all variants and breed pa
 Perl script submitting "vcf_breed_with_annotations_command_line_version.pl" to slurm queue.
 
 ## Relative amount of deleterious variation  
+1. genetic_var_distr_estimator_210112.pl <br/>
+Perls script comparing relative abundance of delleterious alleles in breed paris using the R(A/B) statistics.
+2. assign_p_value_to_purging_and_neg_sel.r <br/>
+R code apending bonferronin corrected p-values to output table from 'genetic_var_distr_estimator_210112.pl'. 
 
 ## GenomeStrip CNV detection and annotation
 1. CNVDiscovery.per.chr.pl <br/>
